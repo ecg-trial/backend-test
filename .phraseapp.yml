@@ -1,0 +1,13 @@
+phraseapp:
+  access_token: a87a05a3e3b3ef3b6f07dd858ed7ca73cae234df7ec316433744f7353d45797a
+  project_id: 1c726dae5233455acd247af218bb443f
+  push:
+    sources:
+    - file: ./src/main/resources/Bundle_<locale_name>.properties
+      params:
+        file_format: properties
+  pull:
+    targets:
+    - file: ./src/main/resources/Bundle_<locale_name>.properties
+      params:
+        file_format: properties
